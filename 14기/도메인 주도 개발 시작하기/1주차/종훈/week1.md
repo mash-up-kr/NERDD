@@ -25,6 +25,7 @@
 
 주문 도메인의 경우 '출고 전에 배송지를 변경할 수 있다'라는 규칙과 '주문 취소는 배송 전에만 할 수 있다'라는 규칙을 구현한 코드가 도메인 계층에 위치하게 된다
 이런 도메인 규칙을 객체 지향 기법으로 구현하는 패턴이 도메인 모델 패턴이다
+```
 public class Order {
     private OrderState state;
     private ShippingInfo shippinginfo;
@@ -57,6 +58,7 @@ public enum OrderState {
         return false;
     }
 }
+```
 위 코드는 주문 도메인의 일부 기능을 도메인 모델 패턴으로 구현했다.
 
 OrderState에는 주문 대기 중이거나 상품 준비 중에는 배송지를 변경할 수 있다는 도메인 규칙을 구현하고 있다.
