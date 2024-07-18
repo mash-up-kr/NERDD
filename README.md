@@ -20,4 +20,4 @@
 
 **[가상 면접 사례로 배우는 대규모 시스템 설계 기초](./14기/가상%20면접%20사례로%20배우는%20대규모%20시스템%20설계%20기초/)**
 
-- 참여자: 이찬웅, 김바다, 박지원, [주병호](https://github.com/Ho-s), [조혜온](https://github.com/hye-on), [윤준호](https://github.com/J-Hoplin)
+- 참여자: 이찬웅, [김바다](https://github.com/sally0226), 박지원, [주병호](https://github.com/Ho-s), [조혜온](https://github.com/hye-on), [윤준호](https://github.com/J-Hoplin)
